@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: rgb(165, 165, 165);
+}
+
+nav {
+    padding: 17px 40px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.barIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.user {
+    width: 23%;
+    background-color: white;
+    border-radius: 30%;
+    padding: 20px 15px 20px 15px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.user img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.userName {
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 0px 40px;
+}
+
+.leftContent {
+
+    width: 75%;
+    justify-items: center;
+}
+
+.leftContent img {
+    width: 650px;
+    height: 325px;
+    display: flex;
+    justify-items: center;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+    border-radius: 30px;
+}
+
+.chooseOption {
+    background-color: rgb(160, 160, 160);
+    padding: 40px 80px 40px 80px;
+    border-radius: 15%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.767));
+}
+
+.chooseOption button {
+    border-radius: 15px;
+    padding: 10px 0px 10px 0px;
+    font-size: 40px;
+    width: 300px;
+    letter-spacing: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid rgb(136, 136, 136); 
+}
+
+.chooseOption button:hover{
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.767));
+}
+
+.rightContent{
+border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    flex:1;
+}
+
+.rightContent p{
+
+    margin: 0px;
+    font-size: 30px;
+}
